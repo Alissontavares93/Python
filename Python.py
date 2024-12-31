@@ -9,6 +9,11 @@ s=(n1+n2)
 print()
 print('the sum between {} and {} is {}'.format(n1,n2,s))'''
 
-name=input('Whats your name? ')
+'''name=input('Whats your name? ')
 print(name.isalpha())
-print(len(name)==0)
+print(len(name)==0)'''
+
+#Tests with strings
+algo=input('Insert something: ')
+print('This date is of the type: ', type(algo))
+print('Are all spaces?: ',algo.isspace())
