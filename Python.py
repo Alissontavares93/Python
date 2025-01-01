@@ -20,11 +20,18 @@ print('Are all spaces?: ',algo.isspace())
 print('all are alphabetics? ',algo.isalnum())
 print('all are lowercase? ',algo.islower())'''
 
-
-algo=input('Insert something: ')
+#Test with strings II
+'''algo=input('Insert something: ')
 if not algo.isalnum():
     print('Attention! Your password needs to have just letters and numbers uppercase and lowercase.')
 elif algo.islower():
     print('Attention! Your password needs to have at least one uppercase letter')
 else:
-    print('Done! Please wait..')
+    print('Done! Please wait..')'''
+
+#Exercises
+n1=int(input('enter a number: '))
+pre=n1-1
+suc=n1+1
+print('The predesessor is {} and the successor is {}.'.format(pre,suc))
+
