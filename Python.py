@@ -122,9 +122,9 @@ n=int(input('Enter a number for calculate root:\n'))
 root=sqrt(n)
 #final=ceil(root)
 print(f'The square root this number is: {floor(root)}')'''
-
+'''
 import emoji
-print(emoji.emojize('I love United States of America :rocket::full_moon:'))
+print(emoji.emojize('I love United States of America :rocket::full_moon:'))'''
 
 #Exercises
 #1 Show integer part of the a number
@@ -144,7 +144,29 @@ print(H)
 from math import hypot, floor
 x1=float(input('Enter value of the opposite leg:\n'))
 x2=float(input('Now enter adjacent leg:\n'))
-print(hypot(x1,x2))
+print(hypot(x1,x2))'''
 
 #3
-from random import randint()'''
+#random draw
+
+'''import random
+N=[random.randint(1, 100)for i in range(1)]
+N.sort()
+print(N)'''
+
+'''
+import random
+list_name=[]
+
+for i in range(1,5):
+    name=str(input(f'Enter {i}o name:'))
+    list_name.append(name)
+win = random.choice(list_name)
+print(win)'''
+
+import pygame
+
+pygame.init()
+pygame.mixer.music.load('jingle.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
