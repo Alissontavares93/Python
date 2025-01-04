@@ -92,6 +92,59 @@ print('The new value with discount is {:.2f}'.format(new_price))'''
 
 #9
 #15% Increase
-current_salary=float(input('Enter your current salary:(xxx.xx)'))
+'''current_salary=float(input('Enter your current salary:(xxx.xx)'))
 new_salary=1.15*current_salary
-print('Your new salary is {:.2f}.'.format(new_salary))
+print('Your new salary is {:.2f}.'.format(new_salary))'''
+
+#10
+#Convert from C° to F°.
+'''C=float(input('Enter the temperature at C°:\n'))
+F=((9*C)/5)+32
+print(f'Your current temperature in C° is {F}F°')'''
+
+#11
+#Rent cars
+'''day=int(input('How many days did you spend with the car?\n'))
+dis=int(input('How many kilometers did you travel?\n'))
+t=day*60
+km=0.15*dis
+Total=km+t
+print(f'Total to pay: {Total:.2f}')'''
+
+#Libraries
+'''import math
+n=int(input('Enter a number for calculate root:\n'))
+root=math.sqrt(n)
+print(f'The square root this number is: {root}')
+
+from math import sqrt, ceil, floor
+n=int(input('Enter a number for calculate root:\n'))
+root=sqrt(n)
+#final=ceil(root)
+print(f'The square root this number is: {floor(root)}')'''
+
+import emoji
+print(emoji.emojize('I love United States of America :rocket::full_moon:'))
+
+#Exercises
+#1 Show integer part of the a number
+'''
+from math import floor
+N=float(input('Enter a real number:\n'))
+print(floor(N))'''
+'''
+#2 Calculate the Hypotenuse
+from math import sqrt
+'''
+'''x1=float(input('Enter value of the opposite leg:\n'))
+x2=float(input('Now enter adjacent leg:\n'))
+H= sqrt(x1**2 + x2**2)
+print(H)
+#or
+from math import hypot, floor
+x1=float(input('Enter value of the opposite leg:\n'))
+x2=float(input('Now enter adjacent leg:\n'))
+print(hypot(x1,x2))
+
+#3
+from random import randint()'''
